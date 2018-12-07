@@ -72,7 +72,7 @@ font-size: 10px;
     width: 70px;
     border-radius:50%;
     z-index: -3;
-    margin-top: 35px;
+    margin-top: 45px;
     margin-left: 15px;
     border: 4px solid #bdc3c7;
 
@@ -91,17 +91,45 @@ font-size: 10px;
     text-align: center;
 }
 
+.cover-text h3{
+    position: absolute;
+    margin-left: 30px;
+    font-size: 11px;
+    color: white;
+    margin-top: 10px;
+}
+
+.cover-text h5{
+    position: absolute;
+    margin-left: 85px;
+    font-size: 10px;
+    color: white;
+    margin-top: 4px;
+}
+
+.cover-text h1{
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: white;
+}
+
 .center-card{
     text-align: center;
 }
 
 .cover-flex{
-flex-basis: 25%;
+flex-basis: 40%;
+margin-top: 50px;
+margin-left: 20px;
 }
 
 .cover-flex h4{
     font-size: 10px;
-    margin-top: 90px;
+    margin-top: -2px;
+    text-align: left;
+    line-height: 8px;
 }
 
 
@@ -115,12 +143,16 @@ flex-basis: 25%;
 
 .cover-flex2 h4{
     font-size: 10px;
-    margin-top: -4px;
+    margin-top: -2px;
+    text-align: left;
+    line-height: 8px;
 }
 
 .cover-flex2{
-    flex-basis: 25%;
-    }
+    flex-basis: 45%;
+    margin-top: 50px;
+    margin-left: 20px;    
+}
 
     .barcode{
         background-image: url("../images/barcode.png");
@@ -131,9 +163,9 @@ flex-basis: 25%;
         top:0;
         bottom:0;
       height: 55px;
-      margin-top: 98px;
+      margin-top: 138px;
         width: 17%;
-        margin-left: 230px;
+        margin-left: 240px;
         border-color: white !important;  
     }
 
