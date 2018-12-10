@@ -1,21 +1,44 @@
-.iimg5{
-    background-image: url("../images/id4.png");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat; 
+
+.dream{
+    color: #ccae62;
+    font-size: 65px;
+    position: absolute;
+}
+
+
+.iimg5{ 
   position: relative;
   top:0;
   bottom:0;
 height: 70px;
 margin-top: 10px;
-  width: 90%;
+  width: 100%;
   z-index:  -10;
-  margin-left: 16px;
+  margin-left: 0px;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   border-color: white !important;  
 }
 
+.big-b{
+    display: inline-block;
+    background-color: #2ecc71;
+    width:200px;
+    height: 100px;
+    margin-top: 200px;
+    border-radius: 10px;
+    border:1px solid #2ecc71;
+}
+.big-b h3{
+    font-size:25px;
+    text-align: center;
+    color: white;
+}
+
+.big-b-mum{
+    text-align: center;
+}
 .iimg2{
-    background-image: url("../images/icon2.png");
+    background-image: url("../images/coporate2.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; 
@@ -51,6 +74,34 @@ font-size: 10px;
     width: 100%;
     z-index: -5;
     background-color: rgba(0,0,0,0.7);   
+}
+
+.sch-logo{
+    background-image: url("../images/schl-logo.JPEG");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 240px;
+  height: 30px;
+    width: 30px;
+    border-color: white !important;  
+    border-radius: 50%;
+}
+
+.sch-logo1{
+    background-image: url("../images/schl-logo.JPEG");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 10px;
+  height: 50px;
+    width: 50px;
+    border-color: white !important;  
+    border-radius: 50%;
 }
 
 .id-card{
@@ -92,6 +143,7 @@ font-size: 10px;
 }
 
 .cover-text h3{
+    font-family: 'Playfair Display', serif;
     position: absolute;
     margin-left: 30px;
     font-size: 11px;
@@ -99,24 +151,16 @@ font-size: 10px;
     margin-top: 10px;
 }
 
-.cover-text h5{
-    position: absolute;
-    margin-left: 85px;
-    font-size: 10px;
-    color: white;
-    margin-top: 4px;
-}
 
-.cover-text h1{
-    position: absolute;
-    margin-left: 85px;
-    margin-top: 15px;
-    font-size: 13px;
-    color: white;
-}
-
-.center-card{
+#center-card1{
     text-align: center;
+    display: none;
+    margin-top: 100px;
+}
+
+#center-card2{
+    text-align: center;
+    display: none;
 }
 
 .cover-flex{
@@ -126,10 +170,11 @@ margin-left: 20px;
 }
 
 .cover-flex h4{
+    font-family: 'Playfair Display', serif;
     font-size: 10px;
-    margin-top: -2px;
+    margin-top: 1px;
     text-align: left;
-    line-height: 7px;
+    line-height: 6px;
 }
 
 
@@ -142,10 +187,12 @@ margin-left: 20px;
 }
 
 .cover-flex2 h4{
-    font-size: 10px;
-    margin-top: -2px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    font-size: 11px;
+    margin-top: 1px;
     text-align: left;
-    line-height: 7px;
+    line-height: 6px;
 }
 
 .cover-flex2{
@@ -175,6 +222,7 @@ margin-left: 20px;
     }
 
     .cover-flex1 p{
+        font-family: 'Titillium Web', sans-serif;
         font-size: 10px;
         text-align: justify;
         text-justify: inter-word;
@@ -205,8 +253,10 @@ margin-left: 20px;
 
     .exp h3{
         margin-top: 15px;
+        font-family: 'Titillium Web', sans-serif;
     }
 
     .exp h4{
         margin-top: 15px;
+        font-family: 'Titillium Web', sans-serif;
     }
